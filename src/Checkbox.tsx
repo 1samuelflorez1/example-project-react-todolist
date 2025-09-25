@@ -15,7 +15,8 @@ function Checkbox () {
 
     return (<>
         <input
-        checked={alertOne}
+        checked={ischeckbox}
+        onClick={alertOne}
         onChange={e => {setisCheckBox(e.target.checked)}} 
         type="checkbox"
         ></input>
