@@ -7,6 +7,9 @@ import Btnmostrar from "./Btnmostrar.tsx"
 import Selector from "./Selector.tsx"
 import CambiarTexto from './Cambiartexto.tsx'
 import Cambiarfondo from './Cambiarfondo.tsx'
+import NumeroAleatorio from './Numeroaleatorio.tsx'
+import Password from './Password.tsx'
+import Checkbox from './Checkbox.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -17,5 +20,8 @@ createRoot(document.getElementById('root')!).render(
     <Selector/>
     <CambiarTexto/>
     <Cambiarfondo/>
+    <NumeroAleatorio/>
+    <Password/>
+    <Checkbox/>
   </StrictMode>,
 )
